@@ -1,0 +1,43 @@
+
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 180px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 2px;
+} 
+
+.container {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.box1 {
+background-color: red;
+}
+.box2 {
+    background-color: aqua;
+    /* align-self: flex-end; */
+}
+.box3 {
+    background-color: blue;
+}
+.box4 {
+    background-color: brown;
+}
+.box5 {
+    background-color: chocolate;
+    /* align-self: flex-end; */
+}
